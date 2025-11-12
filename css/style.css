@@ -1,0 +1,249 @@
+/* 
+ css/styles.css 
+ Student Name: Taima Ghassan Fawaz Hussein
+ Student Id: 12326054
+*/
+
+:root {
+    --bg: #faf7f2;
+    --text: hwb(0 12% 88%);
+    --muted: #6b6b6b;
+    --brand: #216869;
+    --brand-2: #49a078;
+    --card: #ffffff;
+    --border: #e9e3db;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Rubik", sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+}
+
+.site-header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin-right: 25px;
+}
+.nav-links a{
+    text-decoration: none;
+}
+.name{
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.header h2{
+   color: hsl(240, 56%, 48%);
+   margin-left: 30px;
+   font-size: 35px;
+}
+.hero-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    
+}
+.hero-overlay h2{
+    font-size: 50px;
+    color: white;
+}
+.hero-overlay p{
+    color: white;
+
+}
+.btn1{
+    width: 250px;
+    height: 40px;
+    background-color: var(--brand-2);
+    border-radius: 20px;
+}
+.btn2{
+    width: 100px;
+    height: 35px;
+    background-color: var( --brand);
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+#home{
+    width: 100%;
+    height: 350vh;
+    background-color: beige;
+}
+#about-s{
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    border-radius: 25px;
+}
+#about-s h2{
+    padding: 10px 20px;
+    font-size: 30px;
+
+}
+#about-s p {
+    padding-left: 20px;
+}
+#about-s #p2{
+    color: gray;
+}
+#about-s button{
+    border-radius: 20px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: white;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 150px;
+}
+#menu-s{
+     width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+}
+#menu-s h2{
+    padding: 20px 20px;
+    font-size: 30px;
+}
+#menu-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+#menu-item p{
+    font-weight: bold;
+    font-size: 17px;
+}
+#menu-item span{
+    color: var( --brand);
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 10px;
+}
+#menu-span{
+    padding-left: 10px;
+    color: gray;
+}
+#line{
+    border-top: 1px dashed gray;
+    width: 100%;
+    margin: 15px 0px;
+}
+#menu-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+   
+}
+#menu{
+    padding-top: 150px;
+}
+#menu h1{
+    padding-left: 200px;
+    font-weight: bold;
+}
+#comi{
+    padding:20px 200px;
+    color: gray;
+    font-size: 20px;
+}
+#hour-rev{
+     width: 500px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+}
+#hour-rev h2{
+    padding: 10px 20px;
+    font-size: 30px;
+}
+#hour-item{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+#span-rev{
+    padding-left: 10px;
+}
+#hour-rev p{
+    padding-left: 10px;
+    color: gray;
+}
+#num{
+    font-weight: bold;
+}
+#hours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 200px;
+}
+#find{
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+}
+#find h2{
+    padding: 20px 20px;
+    font-size: 30px;
+}
+#find p{
+    padding-left: 20px ;
+    font-size: 17px;
+}
+#find span{
+    padding-left: 20px;
+    font-size: 17px;
+    color: gray;
+}
+#map{
+     width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(../images/map.png);
+    background-size: cover;
+}
+#find-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 150px;
+}
+.site-12326054{
+    text-align: center;
+    color: gray;
+    height: 50px;
+    background-color: beige;
+}
